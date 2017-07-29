@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" Content="">
+	<title>台球大小事</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	
+
+
+
+	<!-- 底部开始 -->
+	<div class="footer">
+		<div class="center-circle-bg"></div>
+		<div class="footer-main">
+			<a href="" class="footer-btn footer-btn-home footer-btn-home-on">首页</a>
+			<a href="" class="footer-btn footer-btn-invite">招聘</a>
+			<div class="footer-btn">
+				<div class="mask"></div>
+				
+				<ul class="close-btn">
+					<li><a href="" class="close-item ci1">招聘求职</a></li>
+					<li><a href="" class="close-item ci2">器材买卖</a></li>
+					<li><a href="" class="close-item ci3">商铺租兑</a></li>
+					<li><a href="" class="close-item ci4">赛事信息</a></li>
+				</ul>
+				<a href="javascript:void(0);" class="add-btn"></a>
+				发布
+			</div>
+			<a href="" class="footer-btn footer-btn-employ">求职者</a>
+			<a href="" class="footer-btn footer-btn-mine">我的</a>
+		</div>
+	</div>
+
+	</div>
+	<script>
+		// 定义遮罩层的大小
+		var winWidth = $(window).width();
+		var winHeight = $(window).height();
+		
+
+		$('.add-btn').toggle( 
+			function(){
+				$('.close-btn').css({
+					'background-image': 'url(icons/pop-close.png)',
+					'background-color': 'rgba(255,255,255,0)',
+					'z-index': '1000'
+				});
+				$('.mask').css({
+					'width': '99rem',
+					'height': '99rem',
+					// 'width': '100vw',
+					// 'height': '100vh',
+					'z-index': '100',
+					'margin-top': '-88rem',
+					'margin-left': '-44rem'
+				});
+				$('.ci1').css({
+					'left': '-3.44rem',
+					'top': '-2.144rem',
+					'opacity': '1',
+				});
+				$('.ci2').css({
+					'left': '-1.312rem',
+					'top': '-3.696rem',
+					'opacity': '1'
+				});
+				$('.ci3').css({
+					'left': '1.312rem',
+					'top': '-3.696rem',
+					'opacity': '1'
+				});
+				$('.ci4').css({
+					'left': '3.344rem',
+					'top': '-2.144rem',
+					'opacity': '1'
+				});
+
+			}, function(e){
+				$('.close-btn').css({
+					'background-image': 'url(icons/footer-add.png)',
+					'background-color': '#5dcfcf'
+				});
+				$('.mask').css({
+					'width': '0%',
+					'height': '0%',
+				});
+				$('.close-item').css({
+					'left': '0rem',
+					'top': '0rem',
+					'opacity': '0'
+				});
+			}
+		)
+	</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

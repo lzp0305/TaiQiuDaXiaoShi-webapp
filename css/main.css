@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body { background: #f2f2f2; }
+.footer, .m-footer { width: 100%; height: 1.552rem; background: #fff; position: fixed; bottom: 0; border-top: 1px solid #e6e6e6; }
+.center-circle-bg { width: 1.568rem; height: 1.568rem; border: 1px solid #e6e6e6; border-radius: 50%; position: absolute; left: 50%; top: -0.4rem; margin-left: -0.784rem; background: #fff; z-index: 10; }
+.footer-main { width: 100%; height: 100%; background: #fff; position: relative; z-index: 11; }
+.footer-btn { position: relative; display: block; width: 20%; padding-top: 0.8rem; text-align: center; font-size: 0.352rem; line-height: 0.7rem; color: #999; float: left; display: block; margin-top: 0.144rem; background-position: center 0; background-repeat: no-repeat; background-size: 0.8rem; }
+.close-btn, .add-btn { position: absolute; top: -0.416rem; left: 50%; margin-left: -0.656rem; width: 1.312rem; height: 1.312rem; border-radius: 50%; background-color: #5dcfcf; background-image: url(../icons/footer-add.png); background-position: center; background-repeat: no-repeat; background-size: 0.4rem; transition: all 0.3s; }
+.add-btn { z-index: 1000; background-image: none; background-color: rgba(0,0,0,0); width: 100%; margin-left: 0; left: 0; }
+.footer-btn-home { background-image: url(../icons/home.png); }
+.footer-btn-invite { background-image: url(../icons/invite.png); }
+.footer-btn-employ { background-image: url(../icons/employ.png); }
+.footer-btn-mine { background-image: url(../icons/mine.png); }
+.footer-btn-home-on { background-image: url(../icons/home-on.png); color: #5dcfcf; }
+.footer-btn-invite-on { background-image: url(../icons/invite-on.png); color: #5dcfcf; }
+.footer-btn-employ-on { background-image: url(../icons/employ-on.png); color: #5dcfcf; }
+.footer-btn-mine-on { background-image: url(../icons/mine-on.png); color: #5dcfcf; }
+.mask { width: 0%; height: 0%; position: absolute; background: rgba(255, 255, 255, 0.9); z-index: 100；; }
+.m-footer { border-top: 0; height: 1.568rem; background: rgba(255,255,255,0); }
+.m-footer-main { background: rgba(255,255,255,0); }
+.m-footer-btn { width: 100%; background: rgba(255,255,255,0); }
+/*.close-btn { position: absolute; top: -0.38rem; left: 50%; margin-left: -0.656rem; width: 1.312rem; height: 1.312rem; border-radius: 50%; background-image: url(../icons/pop-close.png); background-position: center; background-repeat: no-repeat; background-size: 0.4rem; }*/
+.close-item { width: 1.76rem;  position: absolute; left: 0; top: 0; height: 1.76rem; padding-top: 1.408rem; border-radius: 50%; text-align: center;  font-size: 0.416rem; color: #333; }
+.close-item a { display: block; position: absolute; left: 50%; margin-left: -0.88rem; }
+.ci1 { opacity: 0; transition: all 0.3s ; background-position: center 0; background-repeat: no-repeat; background-size: 1.408rem; background-image: url(../icons/pop-employ.png); }
+.ci2 { opacity: 0; transition: all 0.3s 0.05s; background-position: center 0; background-repeat: no-repeat; background-size: 1.408rem; background-image: url(../icons/pop-buy.png); }
+.ci3 { opacity: 0; transition: all 0.3s 0.1s; background-position: center 0; background-repeat: no-repeat; background-size: 1.408rem; background-image: url(../icons/pop-store.png); }
+.ci4 { opacity: 0; transition: all 0.3s 0.15s; background-position: center 0; background-repeat: no-repeat; background-size: 1.408rem; background-image: url(../icons/pop-match.png); }
+
+
+
+
+
+/*jieshu*/
